@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(33, 31, 31);
+    position: relative;
+    font-family: cursive;
+   
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page1{
+
+    height: 100%;
+    width: 100%;
+    background-color:rgb(31, 28, 28);
+    position: absolute;
+    /* margin: 180px; */
+    border: 10px solid black;
+    border-radius: 23px ;
+    margin-top: -1000px;
+    /* margin-right: 100px; */
+ 
+  
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.nav1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    /* margin-left: -600px; */
+
+}
+
+.nav2{
+    margin-left: 800px;
+    text-decoration: none;
+}
+
+.nav2 ul {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    gap: 30px;
+    
+    list-style-type: none;
+}
+
+.nav2 li{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav2 ul li span{
+    color: red;
+   
+}
+
+/* .nav2 li:hover{
+    font-size: 22px;
+    cursor: pointer;
+    color: red;
+
+} */
+
+.cantener{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 90%;
+    width: 100%;
+    color: white;
+    gap: 40px;
+}
+.about{
+    margin-left: -50px;
+}
+.about span  {
+     color: red;
+     font-size: 20px;
+     text-decoration: none;
+     
+}
+
+.about  span a{
+    color: red;
+    font-size: 20px;
+    color: red;
+     font-size: 20px;
+     text-decoration: none;
+}
+.about h2 span {
+    color: white;
+  
+}
+
+.about h1{
+    font-size: 50px;
+}
+.img img{
+    
+    height: 350px;
+    width: 350px;
+    border-radius: 175px;
+    object-fit: cover;
+     /* object-fit: fill; */
+      
+}
+
+.email a{
+
+     flex-direction: column;
+
+     text-decoration: none;
+     color: white;
+     gap: 0.1px;
+     margin-left: 180px;
+
+}
+
+.about button{
+    height: 50px;
+    width: 130px;
+    background-color:rgb(31, 28, 28);
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+   border: 1px solid red;
+
+
+}
+
+.about button:hover{
+    background-color: rgb(105, 94, 94);
+    cursor: pointer;
+    color:white;
+
+}
+
+.socilmedia{
+    background-color: red;
+    z-index: 1;
+    color: white;
+}
+
+/* secondpage2................................... */
+
+.page2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1000px;
+    
+}
+
+.secondpage{
+   
+    color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    
+font-size: 30px;
+
+   
+  }
+
+  /* sectionthree................... */
+
+  .page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    color: white;
+    margin-top: 400px;
+
+  }
+
+  .fourpage{
+   
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    height: 400px;
+    width: 300px;
+  border: 2px solid black;
+   border-radius: 23px;
+    
+
+  }
+  .card:hover{
+    height: 420px;
+    width: 320px;
+  border: 2px solid black;
+   border-radius: 23px;
+   cursor: pointer;
+   color: red;
+   background-color: white;
+  }
+  .card img {
+    width: 100%;
+    border-radius: 23px;
+  }
+  .css{
+    color: rgb(21, 24, 24);
+  }
+
+
+  .card2 img{
+    height: 150px;
+    border-radius: 23px;
+  }
+
+  .html{
+    margin: 5% ;
+    color: rgb(94, 82, 82);
+    font-weight: 900;
+    text-decoration: underline;
+
+  }
+
+  .card h1{
+    margin: 5px 10px ;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .card h2{
+   margin: 5px 10px ;
+    font-size:25px;
+    font-weight: 700;
+  }
+  .card button{
+    margin: 15px 10px ;
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 14px;
+    border: none;
+    color: white;
+    font-size: 17px;
+  }
+  .card button:hover{
+    /* background-color: rgb(135, 135, 210); */
+    cursor: pointer;
+    color: red;
+    background-color: white;
+    border: 1px solid black;
+   
+  }
+
+  .page3 h2 span{
+ 
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 300px;
+    color: red;
+    margin-top: 400px;
+
+  }
+.page4{
+  height: 100%;
+  width: 100%;
+}
+  .threepage{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+
+      flex-direction: column;
+      margin-top: 400px;
+      margin-bottom: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .vishal{
+    display: block;
+  }
+
+  .babar{
+   display: none;
+  }
+
+  @media only screen and (max-width:500px){
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+       
+    }
+
+    body,html{
+        height: 100%;
+        width: 100%;
+        background-color: white;
+       
+    }
+    .vishal{
+      display: none;
+    }
+    .babar{
+      display: block;
+    }
+    .fist{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+        }
+        
+        .fist img{
+            height: 200px;
+            width: 200px;
+            border-radius: 100px;
+        }
+
+        .second{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color:black;
+        }
+        .three{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        color:black;
+        margin-left: 20px;
+        margin-right: 20px;
+        }
+       
+        .four{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 25px;
+        font-weight: 900;
+        color:blue;
+        }
+
+        .five{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+         
+           
+        }
+        
+        .five img{
+            height: 200px;
+            width: 200px;
+        }
+        
+        .five button{
+            height: 200px;
+            width: 300px;
+          
+            background-color: aliceblue;
+          
+        }
+        .git{
+            margin-top: 50px;
+        }
+
+        .secondpage{
+          margin: 100px 30px;
+          
+        }
+        .three p{
+          font-size: 20px;
+        }
+      
+        .fourpage{
+          flex-direction: column;
+          margin-top: 30px;
+        }
+        .card{
+          margin-top:50px;
+          margin-bottom: 40px;
+        }
+
+        .threepage{
+          margin-top: 100px;
+          margin-bottom: 70px;
+          font-size: 10px;
+        }
+}
